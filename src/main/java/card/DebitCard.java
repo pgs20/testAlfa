@@ -16,4 +16,8 @@ public class DebitCard extends BankCard {
             return;
         this.balance += amount;
     }
+
+    public double getBalance() {
+        return super.balance;
+    }
 }
